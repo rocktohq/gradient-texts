@@ -1,0 +1,29 @@
+{
+  "name": "gradient-texts",
+  "version": "0.0.1",
+  "description": "A simple React component to apply linear gradient color with smooth motion very easily to text.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "author": "Rockto",
+  "keywords": [
+    "linear gradient",
+    "gradient text",
+    "gradient text animation"
+  ],
+  "homepage": "https://github.com/rocktohq",
+  "github": {
+    "url": "https://github.com/rocktohq/gradient-texts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@babel/preset-react": "^7.25.7",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
