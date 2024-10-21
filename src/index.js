@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style.css";
 
-const GradientTexts = (text) => {
+const GradientTexts = ({ text }) => {
   return <span className="text-gradient">{text}</span>;
 };
 
